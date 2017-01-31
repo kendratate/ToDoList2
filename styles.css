@@ -1,0 +1,138 @@
+body{
+    /*background-image: url("notebookBackground");*/
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+a:hover {
+    color: lightcyan;
+}
+
+#navigate {
+    font-size: 30px;
+    background-color: lightskyblue;
+}
+
+#display {
+    padding: 40px;
+    background-image: url(back.jpg);
+    background-size: 100%;
+}
+
+
+button {
+    outline: none;
+    box-shadow: none;
+    background-color: green;
+}
+
+li button {
+    background-color: red;
+}
+
+.form * {
+    margin: 0;
+    display: inline;
+    float: left;
+}
+
+.inputs {
+    width: 90%;
+    font-size: 3em;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    text-align: center;
+}
+
+.inputButton {
+    border: 0;
+    width:9%;
+    font-size: 3em;
+    border-radius: 0 10px 10px 0;
+}
+
+.lists {
+    display: block;
+    font-size: 2em;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lists li {
+    text-align: center;
+    /*height: 2em;*/
+    background-color: gray;
+    /*padding: 0*/
+}
+
+.lists li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.lists li .item {
+    font-size: 1.5em;
+    left: 0;
+    height: inherit;
+}
+
+.lists li .clickable:hover {
+    cursor: pointer;
+}
+
+.lists li button {
+    float: right;
+    height: inherit;
+}
+
+.backButton {
+    color: white;
+}
+
+.backButton:hover {
+    cursor: pointer;
+}
+
+#aboutBox{
+    /*transition: all linear 0.5s;*/
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fade.ng-enter{
+    transition: .5s linear all;
+    opacity:0;
+}
+
+.fade.ng-enter.ng-enter-active{
+    opacity:1;
+}
+
+.fade.ng-leave{
+    transition: .5s linear all;
+    opacity:1;
+}
+.fade.ng-leave.ng-leave-active{
+    opacity:0;
+}
+
+.checked{
+    opacity: 1.0;
+}
+
+.unchecked{
+    opacity: 0.1;
+}
